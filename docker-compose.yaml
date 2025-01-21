@@ -68,7 +68,7 @@ services:
       - 'REACT_APP_API_ENDPOINT=http://localhost:3000/'
       - 'OPENAPI_URL=http://grapi:3000/openapi.json'
       - 'REACT_APP_OPENAPI_URL=http://localhost:3000/openapi.json'
-      # - 'REACT_APP_UI_MODULES_ADDITIONAL_PACKAGES=svelte-fullcalendar@2.0.0-beta.0 @fullcalendar/common@5.10.1 @fullcalendar/core@5.10.1 @fullcalendar/daygrid@5.10.1 @fullcalendar/interaction@5.10.1 @fullcalendar/timegrid@5.10.1'
+        # - 'REACT_APP_UI_MODULES_ADDITIONAL_PACKAGES=svelte-fullcalendar@2.0.0-beta.0 @fullcalendar/common@5.10.1 @fullcalendar/core@5.10.1 @fullcalendar/daygrid@5.10.1 @fullcalendar/interaction@5.10.1 @fullcalendar/timegrid@5.10.1'
       - 'REACT_APP_REMOTE_URL=http://localhost:3000'
       - 'REACT_APP_UI_MODULES_STYLE={"colors":{"primary":{"DEFAULT":"#004a99","fg":"#ffffff"},"accent":{"DEFAULT":"#fa7252","fg":"#ffffff"}}}'
       - 'REACT_APP_CUSTOM_CONFIG={"global":{"list-size":10,"field-properties":{"id":{"readonly":false}}, "weekStart": 1},"schema":{"Trainer":{"field-order":["id","vorname","name","email","aktiv","SummerRateBefore","SummerRateAfter","WinterRateBefore","WinterRateAfter","ClubRate","notizen","token"]},"Kunde":{"field-order":["id","bexioId","name","vorname","mail","ort","plz","strasse","land"]},"Gruppe":{"field-order":["id","gruppenname","beschreibung","gruppentyp","notizen"]},"Product":{"field-order":["id","bexioId","'
@@ -120,7 +120,7 @@ services:
 
     volumes:
       - ./src/.:/app/src/
-      - ./webpack.config.js:/app/webpack.config.js
+      - ./webpack.config.ts:/app/webpack.config.ts
       - ./package.json:/app/package.json
 
 

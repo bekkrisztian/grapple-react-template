@@ -1,5 +1,5 @@
 env:
-- name: SVELTE_APP_REMOTE_URL
+- name: REACT_APP_REMOTE_URL
   value: "http://myapp-dev-ns99-myapp-gruim.test"
 - name: CONTAINER_NAME
   value: "myappdevns99myappgruim"

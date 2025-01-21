@@ -32,7 +32,7 @@
     // get the list of trainers
     // set the list of trainers to the select component
     let rapports = await fetch(
-      `${process.env.SVELTE_APP_REMOTE_URL}/api/trainers`
+      `${process.env.REACT_APP_REMOTE_URL}/api/trainers`
     );
     const data = await rapports.json();
 

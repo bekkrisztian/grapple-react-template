@@ -62,14 +62,14 @@ http://localhost:8080
     .                   -> application base directory
     ├── src                 -> application src directory
         ├── index.html          -> 
-        ├── index.ts            -> 
-        ├── App.svelte          -> 
+        ├── index.ts           -> 
+        ├── app.tsx          -> 
     ├── grapi               -> grapi (grapple API) injections
         ├── controllers          -> grapi controllers
             ├── ping2.controller.ts     -> example controller injection
     ├── gruim               -> gruim (grapple UI modules) injections
         ├── shared          -> gruim shared UI modules 
-            ├── *.svelte    -> example gruim UI module injection
+            ├── *.tsx    -> example gruim UI module injection
     ├── chart               -> helm chart directory ==> https://helm.sh/docs/topics/charts/
         ├── values.yaml         -> the default configuration values for this chart
         ├── values*.yaml        -> values files for different profiles / environments

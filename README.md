@@ -62,7 +62,7 @@ http://localhost:8080
     .                   -> application base directory
     ├── src                 -> application src directory
         ├── index.html          -> 
-        ├── index.ts           -> 
+        ├── index.tsx           -> 
         ├── app.tsx          -> 
     ├── grapi               -> grapi (grapple API) injections
         ├── controllers          -> grapi controllers

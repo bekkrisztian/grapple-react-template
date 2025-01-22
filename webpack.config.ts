@@ -45,8 +45,6 @@ const config: Configuration = {
             options: {
               postcssOptions: {
                 plugins: {
-                  tailwindcss: {},
-                  autoprefixer: {},
                 },
               },
             },
@@ -73,7 +71,7 @@ const config: Configuration = {
       name: "client",
       filename: "remoteEntry.js",
       remotes: {
-        host: `${process.env.CONTAINER_NAME}@${process.env.REACT_APP_REMOTE_URL}/remoteEntry.js`,
+        host: "grpldiscintgrasmysqlgruim@http://grpl-disc-int-gras-mysql-gruim.konstruct-live.grapple-demo.com/remoteEntry.js",
       },
       exposes: {},
       shared: {},
